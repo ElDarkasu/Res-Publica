@@ -1,41 +1,125 @@
 [
-    {
-		"name": "Adelle Corp",
-		"leaderName": "Kane",
-		"preferredVictoryType": "Domination",
-
-		"startIntroPart1": "Sample text.",
-		"startIntroPart2": "Sample text.",
-		"declaringWar": "You stand in the way of my people. Let us solve this like warriors!",
-		"attacked": "You dare have the courage to challenge nod, but no fear, for I will sweep you out of history.",
-		"defeated": "You have the guts to call my body a corpse but beware, I know what will happen to our future- our tiberium future.",
-		"introduction": "If I am cut, Do I not bleed?",
-		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
-		"outerColor": [0,0,0],
-		"innerColor": [142,22,0],
-		"uniqueName": "Word of Nod",
-		"uniques": ["[+30]% Strength <vs [City-States]>", "[+2] Movement <for [Armored] units>"],
-		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
-"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
-	},
-
 	{
-		"name": "The New Movement",
-		"leaderName": "Anton Slavik",
-		"preferredVictoryType": "Domination",
+		"name": "Aksum",
+		"leaderName": "Aminatu",
+		"adjective": ["Aksumite"],
+		"startBias": ["Avoid [Tundra]","Coast"],
+		"preferredVictoryType": "Cultural",
+	
+		"startIntroPart1": "Say the word, and Aksum shall perch on the gateway between worlds. May only the worthy pass and know its majesty. The warrior queen Amina rose to power when the trade routes of the Sahara began to provide access to a larger and larger world. A callous and single-minded conqueror, she led the Hausa people on a campaign of expansion across the precolonial Sahel, and she was said to take a lover in every city she vanquished, only to kill him in the morning. In uniting the lands, Amina conquered according to her own fashion — with a sword, not a man, at her side.",
+		"startIntroPart2": "The African coast of the Red Sea was the domain of Aksum, named by the prophet Mani as one of the four key powers of the ancient world. For most of the first millennium CE, Aksumite merchants bore ivory, gold, spices and other goods from the African interior to India, Persia, and the Mediterranean. Yet these trade routes planted the seeds of Aksum’s fall – when the Arab caliphates took over the Silk Road, Aksum was isolated and fell into decline.",
+	
+		"declaringWar": "As we devour your cities with war, we will open the gates, and let the hyenas break your bones.",
+		"attacked": "Our blades are sharp. Your necks are soft.",
+		"defeated": "From obscurity I rose, and to it I must return. From the desert I will watch you.",
+		"introduction": "I am Amina, Sarauniya and taker of whatever — and whomever — pleases me.",
+	
+		"neutralHello": "The sands shift.",
+		"hateHello": "I say no to you.",
+	
+		"tradeRequest": "Re-sharpen your weapons, saddle your horses, and make your peace with the divine. Today, we conquer.",
 
-		"startIntroPart1": "Sample text.",
-		"startIntroPart2": "Sample text",
-		"declaringWar": "It is in  my Intentions to spread the word of Nod into your land.",
-		"attacked": "Pitiful fool! Now we shall destroy you!",
-		"defeated": "I see for the black hand has been unworthy to serve Kane.",
-		"introduction": "If you would stay out of our way then you might live to tell your tale.",
-		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
-		"outerColor": [139,0,0],
-		"innerColor": [0,0,0],
-		"uniqueName": "Purification",
-		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
-		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
-"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
-	}
+		"outerColor": [250,219,2],
+		"innerColor": [26,103,40],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Kingdom of Natural Wealth",
+		"uniques": ["[+2 Gold] from every [resource]"],
+		"cities": ["Aksum","Adulis","Matara","Lalibela","Saba","Koloë","Qohayto","Maste","Tekondo","Zala-Bet-Makeda",
+			"Etchmara","Gulo-Makeda","Haghero-Deragweh","Dergouah","Henzat","Ham","Anza","Hawzien","Degum","Chergos Agula",
+			"Nazret","Yeha","Hehzat","Aden","Melazo","Wuchate Golo","Addi Dahno","Edage Hamus","Addi Galamo","Wegro",
+			"Kwiha","Addi Grammaten","Kaskase","Fegya"],
+		"spyNames": ["Menelik", "Angabo", "Kaleb", "Sebado", "Hataz", "Tomai", "Waʽzeb", "Zoskales", "Gadarat", "Najashi"]
+	},
+	{
+		"name": "Egypt",
+		"leaderName": "Hatshepsut",
+		"adjective": ["Egyptian"],
+		"startBias": ["Avoid [Jungle]","Avoid [Forest]"],
+		"preferredVictoryType": "Cultural",
+	
+		"startIntroPart1": "The waters flood again, preparing the lands for new growth. Here Egypt will compel the world to behold the wonders it works. The early 14th century BCE saw Egypt flourish beneath the guiding hand of Hatshepsut. During her long tenure Hatshepsut expanded Egypt’s trading empire, establishing networks and influence in the Mediterranean to the north and the rich land of Punt to the south. She channeled the resulting wealth into immense building projects that captured her people’s rich heritage, ensuring the power she cultivated for both Egypt and herself would be immortal.",
+		"startIntroPart2": "Kemet, the fertile band of the Nile floodplain, is the heart of ancient Egypt. Its over five thousand years of history have been sustained by the river and the life-giving silt that it leaves, building layers of trade, conquest, and the monuments to immortality that were its wonders. Its riches were legendary – and tempting. Egypt fell to Persia in 525 BCE, but the Nile still flows.",
+	
+		"declaringWar": "When we are done, the lone and level sands will be all that remains of you.",
+		"attacked": "The nau-snake is in my belly, and I have not given myself to you, your flame will not be on me.",
+		"defeated": "Open the Netherworld so that I may see my father Osiris and drive away darkness, for I am beloved of him. All you spirits, prepare a path for me.",
+		"introduction": "I am Horus in human flesh — Hatshepsut, pharaoh of the red lands and the black lands.",
+	
+		"neutralHello": "The river brings blessings.",
+		"hateHello": "We must cast this downstream.",
+	
+		"tradeRequest": "Horus, the bright god, reborn into this person you see before you. Horus who is Hatshepsut. All that surrounds the sun works for me. Do you?",
+
+		"outerColor": [3,80,83],
+		"innerColor": [234,224,159],
+		"favoredReligion": "Islam",
+		"uniqueName": "Gifts of Osiris",
+		"uniques": ["[+1 Production] from every [river]"],
+		"cities": ["Waset","Men-nefer","Akhetaten","Djedet","Djanet","Behdet","Nekheb","Khemenu","Nekhen","Gebtu",
+			"Tjenu","Per-Atum","Abdju","Zau","Ipu","Khito","Swenett","Per-Hathor","Abu","Hut-waret",
+			"Djerty","Per-Bast","Nubt","Thonis","Per-Wadjet","Dehenet","Per-Amun","Ta-senet","Henen-Nesut","Per-Ramesses"],
+		"spyNames": ["Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"]
+	},
+	{
+		"name": "Greece",
+		"leaderName": "Niccolò Machiavelli",
+		"adjective": ["Greek"],
+		"startBias": ["[Coast]"],
+		"preferredVictoryType": "Diplomatic",
+	
+		"startIntroPart1": "The people gather together, debating music and politics, poetry and law--envisioning how to build a Greece that will last for ages. The name of Florentine writer, diplomat and philosopher Niccolo Machiavelli has become synonymous with duplicity and treachery. He argued that the most effective ruler was one willing to do whatever it took to gain, retain and wield power. Such views won him the ire of both the Catholic Church and the powerful Medici dynasty. But his ideas live on in his posthumous work The Prince — giving him, in true Machiavellian fashion, the last word.",
+		"startIntroPart2": "The city-states of Hellas were a constellation of powers, each with a rich history – militaristic Sparta, intellectual Athens, wealthy Corinth, far-off Syracuse. Fractious in their alliances, they were briefly united only once, under Alexander of Macedon. Though subsumed into the Roman Empire, the Greek cities influenced Roman religion and thought, the math and science of the Islamic Golden Age, and even the founding ideas of American democracy.",
+	
+		"declaringWar": "To be caught unarmed is the worst fault.",
+		"attacked": "Hahahaha! You think me a fox; I am also a lion.",
+		"defeated": "A struggle. A fall. I am no prince, but only a writer. I return to my writing desk in obscurity.",
+		"introduction": "Niccolo Machiavelli, at your service. How might you be of service to me? I mean… how might I be of service to you?",
+		
+		"neutralHello": "This works into my plans splendidly.",
+		"hateHello": There is no profit in it.",
+	
+		"tradeRequest": "Every one sees what you appear to be, few really know what you are. This is as it should be.",
+
+		"outerColor": [124,163,248],
+		"innerColor": [255,255,255],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Demokratia",
+		"uniques": ["[+3 Culture, +2 Happiness] from all [Palace] buildings"],
+		"cities": ["Athênai","Spártā","Thêbai","Kórinthos","Argos","Knōsós","Mykenē","Olympia","Chalkís","Mīlētos",
+			"Thera","Phókaia","Lindos","Megara","Pergamon","Eretrea","Tegea","Mantineia","Halikarnāssós","Kérkyra",
+			"Éphesos","Aigai","Pella","Smýrna","Syracuse","Alexandria","Mainákē","Níkaia","Pylos","Bizantion",
+			"Cyrene","Lárisa","Marathon","Khersónēsos","Amphipolis"],
+		"spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander"]
+	},
+	{
+		"name": "Han",
+		"leaderName": "Confucius",
+		"adjective": ["Han"],
+		"startBias": ["[Grassland]"],
+		"preferredVictoryType": "Scientific",
+	
+		"startIntroPart1": "Harmony reveals itself through the shaping of energy, the cultivation of order. Now, the Han shall be its ministers. Kong Fu Zi, or Confucius, came to prominence during the Zhou Dynasty and turned to writing following a life in government. In contrast to a political climate in which rulers vied for power and succumbed to vice, Confucius cultivated an ethos of order, harmony and tradition. His many writings stress hard work and knowing one’s place — be you ruler or subject, parent or child. Confucian thought would influence East Asian society for centuries hence.",
+		"startIntroPart2": "The Han were not the first of China’s ancient dynasties, but were its grandest. From Liu Bang’s rebellion against the iron-fisted Qin came a balance between centralized authority and Confucian meritocracy, and a wave of innovation in statecraft, philosophy, and science. With an army of shi dafu, scholar-bureaucrats, at home, and an army of chariots, heavy infantry, and crossbows abroad, for four hundred years the Han held the Mandate of Heaven.",
+	
+		"declaringWar": "One must know when one can fight. And now we can",
+		"attacked": "Heaven is against you; you shall see.",
+		"defeated": "Death! What a blessing! The righteous man can rest, and villains' tricks end.",
+		"introduction": "Have you come to me, Kong Fu Zi, seeking knowledge? That already is knowledge.",
+	
+		"neutralHello": "Yes, this is wise.",
+		"hateHello": This is unadvised. Reconsider.",
+	
+		"tradeRequest": "Shall I teach you about knowledge? What you know, you know, what you don't know, you don't know. This is true knowledge.",
+
+		"outerColor": [234,227,159],
+		"innerColor": [120,1,0],
+		"favoredReligion": "Taoism",
+		"uniqueName": "Keju",
+		"uniques": ["[+25]% growth [in all cities],
+					"[+2 Science] from every specialist [in all cities]"],
+		"cities": ["Cháng'ān","Luoyang","Línzī","Chengdu","Huáiyáng","Liángzhōu","Jīnyáng","Handan","Pengcheng","Jì",
+			"Guanglíng","Xuchang","Xíngyáng","Shouchun","Linxiang","Dìngtáo","Yángqǔ","Nanjun","Nanchang","Yángqǔ",
+			"Hefei","Nánzhèng","Yè","Didao","Panyu","Ānyì","Bingzhou","Jiànyè","Baqiu","Qūfù","Dunhuang"],
+		"spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
+	},
 ]
